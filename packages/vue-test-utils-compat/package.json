@@ -1,0 +1,48 @@
+{
+  "name": "@wattanx/vue-test-utils-compat",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.mjs",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "vite dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wattanx/vue-test-utils-compat.git"
+  },
+  "keywords": [
+    "vue2",
+    "vue3",
+    "test"
+  ],
+  "author": "wattanx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wattanx/vue-test-utils-compat/issues"
+  },
+  "homepage": "https://github.com/wattanx/vue-test-utils-compat#readme",
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "2.3.2",
+    "estree-walker": "^3.0.3",
+    "magic-string": "^0.30.0",
+    "unbuild": "1.2.1",
+    "vite": "4.3.9",
+    "vite-plugin-inspect": "^0.7.28",
+    "@wattanx/vite-plugin-vue-test-utils-compat": "workspace:*"
+  }
+}

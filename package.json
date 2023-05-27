@@ -1,0 +1,26 @@
+{
+  "name": "vue-test-utils-compat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @wattanx/vue-test-utils-compat run dev",
+    "test:dev": "pnpm --filter './playground/**' run test",
+    "build": "pnpm --filter './packages/**' run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wattanx/vue-test-utils-compat.git"
+  },
+  "keywords": [
+    "vue2",
+    "vue3",
+    "test"
+  ],
+  "author": "wattanx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wattanx/vue-test-utils-compat/issues"
+  },
+  "homepage": "https://github.com/wattanx/vue-test-utils-compat#readme"
+}
