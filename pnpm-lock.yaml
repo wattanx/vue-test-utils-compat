@@ -6,6 +6,9 @@ importers:
 
   packages/vite-plugin-vue-test-utils-compat:
     devDependencies:
+      '@types/estree':
+        specifier: ^1.0.1
+        version: 1.0.1
       '@vue/test-utils':
         specifier: 2.3.2
         version: 2.3.2(vue@3.3.4)
@@ -15,6 +18,9 @@ importers:
       magic-string:
         specifier: ^0.30.0
         version: 0.30.0
+      rollup:
+        specifier: ^3.23.0
+        version: 3.23.0
       unbuild:
         specifier: 1.2.1
         version: 1.2.1
@@ -276,7 +282,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.22.0
+      '@babel/types': 7.22.3
 
   /@babel/standalone@7.22.2:
     resolution: {integrity: sha512-us2dNhs+YxbpIlTH84go6FuZxXQZSsCLAQgGCh8Czuubmk6bOz6Dipgo52NBt9VixeEpoVGZQU6NF6NYAIWX8g==}
@@ -310,14 +316,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/types@7.22.0:
-    resolution: {integrity: sha512-NtXlm3f6cNWIv003cETdlz9sss0VMNtplyatFohxWPz90AbwuhCbHbQopkGis6bG1vOunDLN0FF/4Uv5i8LFZQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.21.5
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
-
   /@babel/types@7.22.3:
     resolution: {integrity: sha512-P3na3xIQHTKY4L0YOG7pM8M8uoUIB910WQaSiiMCZUC2Cy8XFEQONGABFnHWBa2gpGKODTAJcNhi5Zk0sLRrzg==}
     engines: {node: '>=6.9.0'}
@@ -325,7 +323,6 @@ packages:
       '@babel/helper-string-parser': 7.21.5
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
-    dev: true
 
   /@esbuild/android-arm64@0.17.19:
     resolution: {integrity: sha512-KBMWvEZooR7+kzY0BtbTQn0OAYY7CsiydT63pVEaPtVYF0hXbUaOyZog37DKxK7NF3XacBJOpYT4adIJh+avxA==}

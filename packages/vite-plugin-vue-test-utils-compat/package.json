@@ -36,9 +36,11 @@
     "vite": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
+    "@types/estree": "^1.0.1",
     "@vue/test-utils": "2.3.2",
     "estree-walker": "^3.0.3",
     "magic-string": "^0.30.0",
+    "rollup": "^3.23.0",
     "unbuild": "1.2.1",
     "vite": "4.3.9",
     "vite-plugin-inspect": "^0.7.28"
